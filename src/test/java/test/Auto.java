@@ -11,7 +11,7 @@ public class Auto {
 
     int cantidadAsientos(){
         int cantidadAsientos = 0;
-        for(int i=0; i<asientos.length, i++){
+        for(int i=0; i<asientos.length; i++){
             if(asientos[i] != null){
                 cantidadAsientos++;
             }
@@ -33,7 +33,7 @@ public class Auto {
         else {
             return "Las piezas no son originales";
         }
-        return "Las piezas no son originales"
+        return "Las piezas no son originales";
     }
     
 }
